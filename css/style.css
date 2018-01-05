@@ -30,6 +30,9 @@
   font-weight: 200;
   font-size: 25px;
 }
+.header-color{
+  color: #60b0f4;
+}
 /* adopted from https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 .anchor{
   display: block;  
@@ -70,13 +73,13 @@
   max-width: 50px; 
   height: auto; 
 }
-/* #mainNav tags adapted from "startbootstrap-freelancer" */
+/* 60b0f4 #mainNav tags adapted from "startbootstrap-freelancer" */
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   border: none;
-  background-color: #2C3E50;
+  background-color: #a6bfd8;
 } 
 #mainNav a:focus {
   outline: none;
@@ -112,7 +115,7 @@
   font-size: 40px; 
 }
 #name-header{
-  color:white;
+  color: #60b0f4;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 25px;
