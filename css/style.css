@@ -4,7 +4,7 @@
   border-radius: 0 !important; 
 } 
 .titleImage{
-  background: url(../img/headerimage.jpg) no-repeat center center;
+  background: url(../img/cropped-mountain.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,6 +12,76 @@
   min-height: 560px; 
   overflow: hidden;
 }
+@media only screen and (min-width: 768px) {
+  .titleImage{ 
+    background: url(../img/mountain.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 702px;
+    overflow: hidden; 
+  }
+}
+.card{
+  margin: 20px;
+  background-color: white;
+}
+.card img{ 
+  width: 100%;
+}
+.card p{
+  font-size: 14px;
+  padding: 25px;
+  text-align: left; 
+  line-height: 24px;
+}
+.header{
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
+/* adopted from https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+.anchor{
+  display: block;  
+  position: relative;
+  top: -52px;
+  visibility: hidden;
+}
+.form-group{
+  border: none;
+  border-radius: 0; 
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .form-group{ 
+    border: none;
+    border-radius: 0; 
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+  }
+}
+.modal-dialog{
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+  background-color: #ECF0F1;
+}
+.modal-dialog img{
+  width: 100%;
+  margin-top: 30px;
+}
+.modal-close-button{ 
+  margin-top: 20px;
+  text-align: center;
+}
+#logo{ 
+  max-width: 50px; 
+  height: auto; 
+}
+/* #mainNav tags adapted from "startbootstrap-freelancer" */
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 200;
@@ -47,7 +117,61 @@
   border-color: #18BC9C;
   background-color: #18BC9C; 
 }
-#logo{ 
-  max-width: 50px; 
-  height: auto; 
+#big-header{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 40px; 
+}
+#title-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  color: #000;
+  background: rgba(253, 254, 254, .5);
+  padding-top: 20px;
+  margin-bottom: 30px;
+  margin-left: -17px;
+  margin-right: -17px; 
+}
+#about{ 
+  background: #a9dfbf;  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#about p{
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  font-weight: 300;
+}
+#profile-pic{
+  width: 100%;
+  border-radius: 50%; 
+  padding: 30px; 
+} 
+#portfolio{ 
+  background: #e5e8e8;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+}
+#contact{
+  background: #f9e79f; 
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+#contact-form{
+  padding-top: 23px; 
+}
+#footer{
+  background: #fafafa;
+  min-height: 50px;
+  text-align: center;
+  color: #b1b1b1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  line-height: 20px;
 }
