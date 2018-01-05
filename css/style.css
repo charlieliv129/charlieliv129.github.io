@@ -105,7 +105,7 @@
   border-color: #0957a6; 
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-  color: #white;
+  color: white;
   border-color: #0957a6;
   background-color: #0957a6; 
 }
