@@ -91,7 +91,7 @@
   color: white; 
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #FFF;
+  color: #0957a6;
   outline: none; 
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
