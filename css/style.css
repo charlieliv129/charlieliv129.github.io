@@ -101,8 +101,8 @@
   font-size: 14px;
   padding: 11px;
   text-transform: uppercase;
-  color: #0957a6;
-  border-color: #0957a6; 
+  color: white;
+  border-color: white; 
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
   color: white;
