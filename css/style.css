@@ -105,9 +105,9 @@
   border-color: white; 
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-  color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C; 
+  color: #0957a6;
+  border-color: #a6bfd8;
+  background-color: #a6bfd8; 
 }
 #big-header{
   font-family: 'Lato', sans-serif;
