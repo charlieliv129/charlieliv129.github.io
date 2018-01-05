@@ -105,9 +105,9 @@
   border-color: #0957a6; 
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-  color: #0957a6;
-  border-color: #a6bfd8;
-  background-color: #a6bfd8; 
+  color: #white;
+  border-color: #0957a6;
+  background-color: #0957a6; 
 }
 #big-header{
   font-family: 'Lato', sans-serif;
