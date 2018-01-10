@@ -73,6 +73,14 @@
   max-width: 50px; 
   height: auto; 
 }
+.navbar-brand{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #fff;
+  background-color: transparent;
+}
 /* 60b0f4 #mainNav tags adapted from "startbootstrap-freelancer" */
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
