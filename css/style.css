@@ -187,5 +187,7 @@
 }
 .leftheader{
   margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 25px;
 }
