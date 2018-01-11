@@ -92,7 +92,7 @@
   font-weight: 200;
   text-transform: uppercase;
   border: none;
-  background-color: #a6bfd8;
+  background-color: #10bfd8;
 } 
 #mainNav a:focus {
   outline: none;
@@ -118,7 +118,7 @@
   border-color: #0957a6; 
 }
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-  color: #a6bfd8;
+  color: #10bfd8;
   border-color: #0957a6;
   background-color: #0957a6; 
 }
@@ -139,7 +139,7 @@
   align-items: center;
 
   color: #0957a6;
-  background: rgba(166, 191, 216, .5);
+  background: rgba(16, 191, 216, .5);
   padding-top: 20px;
   margin-bottom: 30px;
   margin-left: -17px;
