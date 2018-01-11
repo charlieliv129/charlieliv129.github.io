@@ -80,7 +80,7 @@
   color: #0957a6;
 }
 .navbar-light .navbar-brand{
-  color: #0957a6;
+  color: #0957a6 !important;
 }
 .navbar-inverse .navbar-brand:hover {
   color: #fff;
