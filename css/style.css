@@ -237,8 +237,9 @@ article {
 .anchor{
   display: block;  
   position: relative;
-  top: -52px;
+  top: -70px;
   visibility: hidden;
+  height:70px;
 }
 .header{
   font-family: 'Lato', sans-serif;
